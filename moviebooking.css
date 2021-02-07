@@ -91,3 +91,21 @@ body {
 .showcase li small {
     margin-left: 2px;
 }
+
+.container{
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.screen {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255,255, 255, 0.7);
+}
+
+p.text span {
+    color: #6feaf6;
+}
